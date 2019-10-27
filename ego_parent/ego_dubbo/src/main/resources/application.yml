@@ -1,0 +1,23 @@
+spring:
+  datasource:
+    driver-class-name: com.mysql.jdbc.Driver
+#    url: jdbc:mysql://192.168.8.134:8066/ego
+    url: jdbc:mysql://localhost:3306/ego
+    username: root
+    password: 123456
+
+mybatis:
+  mapper-locations: classpath:mybatis/*
+
+
+# 当需要部署在服务上的时候，需要指定provider的主机信息
+dubbo:
+  application:
+    name: ego_dubbo
+  registry:
+    address: zookeeper://192.168.8.128:2181
+#  provider:
+#    host: 192.168.8.135
+
+server:
+  port: 9001

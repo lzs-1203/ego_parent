@@ -1,0 +1,29 @@
+2019-08-25 21:30:59.082 [main] INFO  o.a.d.s.b.c.event.WelcomeLogoApplicationListener - 
+
+ :: Dubbo Spring Boot (v2.7.1) : https://github.com/apache/incubator-dubbo-spring-boot-project
+ :: Dubbo (v2.7.1) : https://github.com/apache/incubator-dubbo
+ :: Discuss group : dev@dubbo.apache.org
+
+2019-08-25 21:30:59.090 [main] INFO  o.a.d.s.b.c.e.OverrideDubboConfigApplicationListener - Dubbo Config was overridden by externalized configuration {dubbo.application.name=ego_dubbo, dubbo.application.qos-enable=false, dubbo.config.multiple=true, dubbo.registry.address=zookeeper://192.168.8.128:2181}
+2019-08-25 21:30:59.322 [main] INFO  com.ego.DubboApplication - Starting DubboApplication on Constant-Computer with PID 45832 (D:\DATA\IDEAWorkSpace\ego_parent\ego_dubbo\target\classes started by will.wang in D:\DATA\IDEAWorkSpace\ego_parent)
+2019-08-25 21:30:59.324 [main] INFO  com.ego.DubboApplication - No active profile set, falling back to default profiles: default
+2019-08-25 21:31:00.365 [main] INFO  o.a.d.c.s.c.annotation.DubboConfigBindingRegistrar - The dubbo config bean definition [name : org.apache.dubbo.config.ApplicationConfig#0, class : org.apache.dubbo.config.ApplicationConfig] has been registered.
+2019-08-25 21:31:00.366 [main] INFO  o.a.d.c.s.c.annotation.DubboConfigBindingRegistrar - The BeanPostProcessor bean definition [org.apache.dubbo.config.spring.beans.factory.annotation.DubboConfigBindingBeanPostProcessor] for dubbo config bean [name : org.apache.dubbo.config.ApplicationConfig#0] has been registered.
+2019-08-25 21:31:00.366 [main] INFO  o.a.d.c.s.c.annotation.DubboConfigBindingRegistrar - The dubbo config bean definition [name : org.apache.dubbo.config.RegistryConfig#0, class : org.apache.dubbo.config.RegistryConfig] has been registered.
+2019-08-25 21:31:00.366 [main] INFO  o.a.d.c.s.c.annotation.DubboConfigBindingRegistrar - The BeanPostProcessor bean definition [org.apache.dubbo.config.spring.beans.factory.annotation.DubboConfigBindingBeanPostProcessor] for dubbo config bean [name : org.apache.dubbo.config.RegistryConfig#0] has been registered.
+2019-08-25 21:31:01.124 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'org.apache.dubbo.spring.boot.autoconfigure.DubboRelaxedBinding2AutoConfiguration' of type [org.apache.dubbo.spring.boot.autoconfigure.DubboRelaxedBinding2AutoConfiguration$$EnhancerBySpringCGLIB$$cdcb99e8] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-08-25 21:31:01.146 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$f1d4bb2] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-08-25 21:31:01.230 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'relaxedDubboConfigBinder' of type [org.apache.dubbo.spring.boot.autoconfigure.BinderDubboConfigBinder] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-08-25 21:31:01.257 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'relaxedDubboConfigBinder' of type [org.apache.dubbo.spring.boot.autoconfigure.BinderDubboConfigBinder] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-08-25 21:31:01.905 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 9001 (http)
+2019-08-25 21:31:01.944 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-9001"]
+2019-08-25 21:31:01.970 [main] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2019-08-25 21:31:01.971 [main] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.21]
+2019-08-25 21:31:02.294 [main] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2019-08-25 21:31:02.295 [main] INFO  org.springframework.web.context.ContextLoader - Root WebApplicationContext: initialization completed in 2804 ms
+2019-08-25 21:31:03.177 [main] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+2019-08-25 21:31:04.675 [main] INFO  o.a.d.c.s.b.f.a.DubboConfigBindingBeanPostProcessor - The properties of bean [name : org.apache.dubbo.config.ApplicationConfig#0] have been binding by prefix of configuration properties : dubbo.application
+2019-08-25 21:31:04.688 [main] INFO  o.a.d.c.s.b.f.a.DubboConfigBindingBeanPostProcessor - The properties of bean [name : org.apache.dubbo.config.RegistryConfig#0] have been binding by prefix of configuration properties : dubbo.registry
+2019-08-25 21:31:05.986 [main] INFO  org.apache.curator.utils.Compatibility - Running in ZooKeeper 3.4.x compatibility mode
+2019-08-25 21:31:05.987 [main] INFO  org.apache.curator.utils.Compatibility - Using emulated InjectSessionExpiration
+2019-08-25 21:31:06.034 [main] INFO  o.a.curator.framework.imps.CuratorFrameworkImpl - Starting

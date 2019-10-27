@@ -1,0 +1,41 @@
+#springboot 自定义视图解析器的配置和缓存工具
+spring:
+  mvc:
+    view:
+      prefix: /WEB-INF/jsp/
+      suffix: .jsp
+  redis:
+    cluster:
+      nodes: 192.168.8.130:7001,192.168.8.130:7002,192.168.8.130:7003,192.168.8.130:7004,192.168.8.130:7005,192.168.8.130:7006
+
+server:
+  port: 8085
+
+dubbo:
+  application:
+    name: ego_manege
+  registry:
+    address: zookeeper://192.168.8.128:2181
+
+# redis软编码key值
+
+# 查看商品的详情的时候存放的缓存数据
+myredis:
+  itemkey: itemkey
+
+# 登陆用户cookie的key值
+mylogin:
+  cookie:
+    name: TT_TOKEN
+
+# 第三方请求地址
+passport:
+  url:
+    getUserInfo: http://localhost:8084/user/token/
+
+# 购物车名称
+cart:
+  tempcart: cart
+  usercart: cart
+
+

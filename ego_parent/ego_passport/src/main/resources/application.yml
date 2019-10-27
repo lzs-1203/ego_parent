@@ -1,0 +1,23 @@
+# jsp解析器和redis集群
+spring:
+  mvc:
+    view:
+      prefix: /WEB-INF/jsp/
+      suffix: .jsp
+  redis:
+    cluster:
+      nodes: 192.168.8.130:7001,192.168.8.130:7002,192.168.8.130:7003,192.168.8.130:7004,192.168.8.130:7005,192.168.8.130:7006
+
+# 访问此项目的端口
+server:
+  port: 8084
+
+
+#Dubbo-注册中心
+dubbo:
+  registry:
+    address: zookeeper://192.168.8.128:2181
+  application:
+    name: ego_passport
+
+

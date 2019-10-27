@@ -1,0 +1,27 @@
+
+# jsp页面解析（自定义视图解析器---集群）
+spring:
+  mvc:
+    view:
+      prefix: /WEB-INF/jsp/
+      suffix: .jsp
+  redis:
+    cluster:
+      nodes: 192.168.8.130:7001,192.168.8.130:7002,192.168.8.130:7003,192.168.8.130:7004,192.168.8.130:7005,192.168.8.130:7006
+
+# 集群软编码key值
+myredis:
+  itemkey: itemkey
+
+
+# 端口
+server:
+  port: 8081
+
+
+# 注册中心
+dubbo:
+  application:
+    name: ego_item
+  registry:
+    address: zookeeper://192.168.8.128:2181

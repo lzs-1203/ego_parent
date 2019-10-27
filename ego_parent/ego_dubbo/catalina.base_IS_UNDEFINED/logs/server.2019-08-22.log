@@ -1,0 +1,156 @@
+2019-08-22 15:47:18.976 [main] INFO  o.a.d.s.b.c.event.WelcomeLogoApplicationListener - 
+
+ :: Dubbo Spring Boot (v2.7.1) : https://github.com/apache/incubator-dubbo-spring-boot-project
+ :: Dubbo (v2.7.1) : https://github.com/apache/incubator-dubbo
+ :: Discuss group : dev@dubbo.apache.org
+
+2019-08-22 15:47:19.266 [main] INFO  o.a.d.s.b.c.e.OverrideDubboConfigApplicationListener - Dubbo Config was overridden by externalized configuration {dubbo.application.name=ego_dubbo, dubbo.application.qos-enable=false, dubbo.config.multiple=true, dubbo.provider.host=192.168.8.135, dubbo.registry.address=zookeeper://192.168.8.128:2181}
+2019-08-22 15:47:19.508 [main] INFO  com.ego.DubboApplication - Starting DubboApplication on Constant-Computer with PID 22048 (D:\DATA\IDEAWorkSpace\ego_parent\ego_dubbo\target\classes started by will.wang in D:\DATA\IDEAWorkSpace\ego_parent\ego_dubbo)
+2019-08-22 15:47:19.510 [main] INFO  com.ego.DubboApplication - No active profile set, falling back to default profiles: default
+2019-08-22 15:47:20.760 [main] INFO  o.a.d.c.s.c.annotation.DubboConfigBindingRegistrar - The dubbo config bean definition [name : org.apache.dubbo.config.ApplicationConfig#0, class : org.apache.dubbo.config.ApplicationConfig] has been registered.
+2019-08-22 15:47:20.761 [main] INFO  o.a.d.c.s.c.annotation.DubboConfigBindingRegistrar - The BeanPostProcessor bean definition [org.apache.dubbo.config.spring.beans.factory.annotation.DubboConfigBindingBeanPostProcessor] for dubbo config bean [name : org.apache.dubbo.config.ApplicationConfig#0] has been registered.
+2019-08-22 15:47:20.761 [main] INFO  o.a.d.c.s.c.annotation.DubboConfigBindingRegistrar - The dubbo config bean definition [name : org.apache.dubbo.config.RegistryConfig#0, class : org.apache.dubbo.config.RegistryConfig] has been registered.
+2019-08-22 15:47:20.761 [main] INFO  o.a.d.c.s.c.annotation.DubboConfigBindingRegistrar - The BeanPostProcessor bean definition [org.apache.dubbo.config.spring.beans.factory.annotation.DubboConfigBindingBeanPostProcessor] for dubbo config bean [name : org.apache.dubbo.config.RegistryConfig#0] has been registered.
+2019-08-22 15:47:20.762 [main] INFO  o.a.d.c.s.c.annotation.DubboConfigBindingRegistrar - The dubbo config bean definition [name : org.apache.dubbo.config.ProviderConfig#0, class : org.apache.dubbo.config.ProviderConfig] has been registered.
+2019-08-22 15:47:20.762 [main] INFO  o.a.d.c.s.c.annotation.DubboConfigBindingRegistrar - The BeanPostProcessor bean definition [org.apache.dubbo.config.spring.beans.factory.annotation.DubboConfigBindingBeanPostProcessor] for dubbo config bean [name : org.apache.dubbo.config.ProviderConfig#0] has been registered.
+2019-08-22 15:47:22.234 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'org.apache.dubbo.spring.boot.autoconfigure.DubboRelaxedBinding2AutoConfiguration' of type [org.apache.dubbo.spring.boot.autoconfigure.DubboRelaxedBinding2AutoConfiguration$$EnhancerBySpringCGLIB$$7659ac74] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-08-22 15:47:22.260 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$b7ab5e3e] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-08-22 15:47:22.386 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'relaxedDubboConfigBinder' of type [org.apache.dubbo.spring.boot.autoconfigure.BinderDubboConfigBinder] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-08-22 15:47:22.400 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'relaxedDubboConfigBinder' of type [org.apache.dubbo.spring.boot.autoconfigure.BinderDubboConfigBinder] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-08-22 15:47:22.405 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'relaxedDubboConfigBinder' of type [org.apache.dubbo.spring.boot.autoconfigure.BinderDubboConfigBinder] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-08-22 15:47:23.665 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 9001 (http)
+2019-08-22 15:47:23.705 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-9001"]
+2019-08-22 15:47:23.734 [main] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2019-08-22 15:47:23.735 [main] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.21]
+2019-08-22 15:47:24.024 [main] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2019-08-22 15:47:24.025 [main] INFO  org.springframework.web.context.ContextLoader - Root WebApplicationContext: initialization completed in 4438 ms
+2019-08-22 15:47:25.035 [main] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+2019-08-22 15:47:26.956 [main] INFO  o.a.d.c.s.b.f.a.DubboConfigBindingBeanPostProcessor - The properties of bean [name : org.apache.dubbo.config.ApplicationConfig#0] have been binding by prefix of configuration properties : dubbo.application
+2019-08-22 15:47:26.970 [main] INFO  o.a.d.c.s.b.f.a.DubboConfigBindingBeanPostProcessor - The properties of bean [name : org.apache.dubbo.config.RegistryConfig#0] have been binding by prefix of configuration properties : dubbo.registry
+2019-08-22 15:47:27.004 [main] INFO  o.a.d.c.s.b.f.a.DubboConfigBindingBeanPostProcessor - The properties of bean [name : org.apache.dubbo.config.ProviderConfig#0] have been binding by prefix of configuration properties : dubbo.provider
+2019-08-22 15:47:28.259 [main] INFO  org.apache.curator.utils.Compatibility - Running in ZooKeeper 3.4.x compatibility mode
+2019-08-22 15:47:28.260 [main] INFO  org.apache.curator.utils.Compatibility - Using emulated InjectSessionExpiration
+2019-08-22 15:47:28.345 [main] INFO  o.a.curator.framework.imps.CuratorFrameworkImpl - Starting
+2019-08-22 15:47:48.398 [main] INFO  org.apache.zookeeper.ZooKeeper - Client environment:zookeeper.version=3.4.8--1, built on 02/06/2016 03:18 GMT
+2019-08-22 15:47:48.399 [main] INFO  org.apache.zookeeper.ZooKeeper - Client environment:host.name=Constant-Computer
+2019-08-22 15:47:48.399 [main] INFO  org.apache.zookeeper.ZooKeeper - Client environment:java.version=1.8.0_151
+2019-08-22 15:47:48.399 [main] INFO  org.apache.zookeeper.ZooKeeper - Client environment:java.vendor=Oracle Corporation
+2019-08-22 15:47:48.399 [main] INFO  org.apache.zookeeper.ZooKeeper - Client environment:java.home=D:\InstallSoftware\JDK\jdk1.8.0_151\jre
+2019-08-22 15:47:48.400 [main] INFO  org.apache.zookeeper.ZooKeeper - Client environment:java.class.path=D:\InstallSoftware\IDEA2018\ideaIU-2018.3.5.win\plugins\maven\lib\maven3\boot\plexus-classworlds-2.5.2.jar;D:\InstallSoftware\IDEA2018\ideaIU-2018.3.5.win\lib\idea_rt.jar
+2019-08-22 15:47:48.400 [main] INFO  org.apache.zookeeper.ZooKeeper - Client environment:java.library.path=D:\InstallSoftware\JDK\jdk1.8.0_151\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;C:\ProgramData\Oracle\Java\javapath;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;D:\InstallSoftware\JDK\jdk1.8.0_151\bin;D:\InstallSoftware\JDK\jdk1.8.0_151\jre\bin;D:\InstallSoftware\mysql-5.5.25a\bin;C:\Users\will.wang\AppData\Local\Microsoft\WindowsApps;;.
+2019-08-22 15:47:48.400 [main] INFO  org.apache.zookeeper.ZooKeeper - Client environment:java.io.tmpdir=C:\Users\WILL~1.WAN\AppData\Local\Temp\
+2019-08-22 15:47:48.400 [main] INFO  org.apache.zookeeper.ZooKeeper - Client environment:java.compiler=<NA>
+2019-08-22 15:47:48.401 [main] INFO  org.apache.zookeeper.ZooKeeper - Client environment:os.name=Windows 10
+2019-08-22 15:47:48.401 [main] INFO  org.apache.zookeeper.ZooKeeper - Client environment:os.arch=amd64
+2019-08-22 15:47:48.401 [main] INFO  org.apache.zookeeper.ZooKeeper - Client environment:os.version=10.0
+2019-08-22 15:47:48.401 [main] INFO  org.apache.zookeeper.ZooKeeper - Client environment:user.name=will.wang
+2019-08-22 15:47:48.401 [main] INFO  org.apache.zookeeper.ZooKeeper - Client environment:user.home=C:\Users\will.wang
+2019-08-22 15:47:48.401 [main] INFO  org.apache.zookeeper.ZooKeeper - Client environment:user.dir=D:\DATA\IDEAWorkSpace\ego_parent\ego_dubbo
+2019-08-22 15:47:48.403 [main] INFO  org.apache.zookeeper.ZooKeeper - Initiating client connection, connectString=192.168.8.128:2181 sessionTimeout=60000 watcher=org.apache.curator.ConnectionState@6e5414b1
+2019-08-22 15:47:48.494 [main-SendThread(192.168.8.128:2181)] INFO  org.apache.zookeeper.ClientCnxn - Opening socket connection to server 192.168.8.128/192.168.8.128:2181. Will not attempt to authenticate using SASL (unknown error)
+2019-08-22 15:47:48.499 [main] INFO  o.a.curator.framework.imps.CuratorFrameworkImpl - Default schema
+2019-08-22 15:48:09.508 [main-SendThread(192.168.8.128:2181)] WARN  org.apache.zookeeper.ClientCnxn - Session 0x0 for server null, unexpected error, closing socket connection and attempting reconnect
+java.net.ConnectException: Connection timed out: no further information
+	at sun.nio.ch.SocketChannelImpl.checkConnect(Native Method)
+	at sun.nio.ch.SocketChannelImpl.finishConnect(SocketChannelImpl.java:717)
+	at org.apache.zookeeper.ClientCnxnSocketNIO.doTransport(ClientCnxnSocketNIO.java:361)
+	at org.apache.zookeeper.ClientCnxn$SendThread.run(ClientCnxn.java:1141)
+2019-08-22 15:48:10.612 [main-SendThread(192.168.8.128:2181)] INFO  org.apache.zookeeper.ClientCnxn - Opening socket connection to server 192.168.8.128/192.168.8.128:2181. Will not attempt to authenticate using SASL (unknown error)
+2019-08-22 15:48:31.614 [main-SendThread(192.168.8.128:2181)] WARN  org.apache.zookeeper.ClientCnxn - Session 0x0 for server null, unexpected error, closing socket connection and attempting reconnect
+java.net.ConnectException: Connection timed out: no further information
+	at sun.nio.ch.SocketChannelImpl.checkConnect(Native Method)
+	at sun.nio.ch.SocketChannelImpl.finishConnect(SocketChannelImpl.java:717)
+	at org.apache.zookeeper.ClientCnxnSocketNIO.doTransport(ClientCnxnSocketNIO.java:361)
+	at org.apache.zookeeper.ClientCnxn$SendThread.run(ClientCnxn.java:1141)
+2019-08-22 15:48:32.715 [main-SendThread(192.168.8.128:2181)] INFO  org.apache.zookeeper.ClientCnxn - Opening socket connection to server 192.168.8.128/192.168.8.128:2181. Will not attempt to authenticate using SASL (unknown error)
+2019-08-22 15:48:53.728 [main-SendThread(192.168.8.128:2181)] WARN  org.apache.zookeeper.ClientCnxn - Session 0x0 for server null, unexpected error, closing socket connection and attempting reconnect
+java.net.ConnectException: Connection timed out: no further information
+	at sun.nio.ch.SocketChannelImpl.checkConnect(Native Method)
+	at sun.nio.ch.SocketChannelImpl.finishConnect(SocketChannelImpl.java:717)
+	at org.apache.zookeeper.ClientCnxnSocketNIO.doTransport(ClientCnxnSocketNIO.java:361)
+	at org.apache.zookeeper.ClientCnxn$SendThread.run(ClientCnxn.java:1141)
+2019-08-22 15:48:54.834 [main-SendThread(192.168.8.128:2181)] INFO  org.apache.zookeeper.ClientCnxn - Opening socket connection to server 192.168.8.128/192.168.8.128:2181. Will not attempt to authenticate using SASL (unknown error)
+2019-08-22 15:49:15.837 [main-SendThread(192.168.8.128:2181)] WARN  org.apache.zookeeper.ClientCnxn - Session 0x0 for server null, unexpected error, closing socket connection and attempting reconnect
+java.net.ConnectException: Connection timed out: no further information
+	at sun.nio.ch.SocketChannelImpl.checkConnect(Native Method)
+	at sun.nio.ch.SocketChannelImpl.finishConnect(SocketChannelImpl.java:717)
+	at org.apache.zookeeper.ClientCnxnSocketNIO.doTransport(ClientCnxnSocketNIO.java:361)
+	at org.apache.zookeeper.ClientCnxn$SendThread.run(ClientCnxn.java:1141)
+2019-08-22 15:49:16.937 [main-SendThread(192.168.8.128:2181)] INFO  org.apache.zookeeper.ClientCnxn - Opening socket connection to server 192.168.8.128/192.168.8.128:2181. Will not attempt to authenticate using SASL (unknown error)
+2019-08-22 15:49:37.939 [main-SendThread(192.168.8.128:2181)] WARN  org.apache.zookeeper.ClientCnxn - Session 0x0 for server null, unexpected error, closing socket connection and attempting reconnect
+java.net.ConnectException: Connection timed out: no further information
+	at sun.nio.ch.SocketChannelImpl.checkConnect(Native Method)
+	at sun.nio.ch.SocketChannelImpl.finishConnect(SocketChannelImpl.java:717)
+	at org.apache.zookeeper.ClientCnxnSocketNIO.doTransport(ClientCnxnSocketNIO.java:361)
+	at org.apache.zookeeper.ClientCnxn$SendThread.run(ClientCnxn.java:1141)
+2019-08-22 15:49:39.041 [main-SendThread(192.168.8.128:2181)] INFO  org.apache.zookeeper.ClientCnxn - Opening socket connection to server 192.168.8.128/192.168.8.128:2181. Will not attempt to authenticate using SASL (unknown error)
+2019-08-22 15:50:00.058 [main-SendThread(192.168.8.128:2181)] WARN  org.apache.zookeeper.ClientCnxn - Session 0x0 for server null, unexpected error, closing socket connection and attempting reconnect
+java.net.ConnectException: Connection timed out: no further information
+	at sun.nio.ch.SocketChannelImpl.checkConnect(Native Method)
+	at sun.nio.ch.SocketChannelImpl.finishConnect(SocketChannelImpl.java:717)
+	at org.apache.zookeeper.ClientCnxnSocketNIO.doTransport(ClientCnxnSocketNIO.java:361)
+	at org.apache.zookeeper.ClientCnxn$SendThread.run(ClientCnxn.java:1141)
+2019-08-22 15:50:01.159 [main-SendThread(192.168.8.128:2181)] INFO  org.apache.zookeeper.ClientCnxn - Opening socket connection to server 192.168.8.128/192.168.8.128:2181. Will not attempt to authenticate using SASL (unknown error)
+2019-08-22 15:50:22.164 [main-SendThread(192.168.8.128:2181)] WARN  org.apache.zookeeper.ClientCnxn - Session 0x0 for server null, unexpected error, closing socket connection and attempting reconnect
+java.net.ConnectException: Connection timed out: no further information
+	at sun.nio.ch.SocketChannelImpl.checkConnect(Native Method)
+	at sun.nio.ch.SocketChannelImpl.finishConnect(SocketChannelImpl.java:717)
+	at org.apache.zookeeper.ClientCnxnSocketNIO.doTransport(ClientCnxnSocketNIO.java:361)
+	at org.apache.zookeeper.ClientCnxn$SendThread.run(ClientCnxn.java:1141)
+2019-08-22 15:50:23.265 [main-SendThread(192.168.8.128:2181)] INFO  org.apache.zookeeper.ClientCnxn - Opening socket connection to server 192.168.8.128/192.168.8.128:2181. Will not attempt to authenticate using SASL (unknown error)
+2019-08-22 15:50:44.266 [main-SendThread(192.168.8.128:2181)] WARN  org.apache.zookeeper.ClientCnxn - Session 0x0 for server null, unexpected error, closing socket connection and attempting reconnect
+java.net.ConnectException: Connection timed out: no further information
+	at sun.nio.ch.SocketChannelImpl.checkConnect(Native Method)
+	at sun.nio.ch.SocketChannelImpl.finishConnect(SocketChannelImpl.java:717)
+	at org.apache.zookeeper.ClientCnxnSocketNIO.doTransport(ClientCnxnSocketNIO.java:361)
+	at org.apache.zookeeper.ClientCnxn$SendThread.run(ClientCnxn.java:1141)
+2019-08-22 15:50:45.368 [main-SendThread(192.168.8.128:2181)] INFO  org.apache.zookeeper.ClientCnxn - Opening socket connection to server 192.168.8.128/192.168.8.128:2181. Will not attempt to authenticate using SASL (unknown error)
+2019-08-22 15:51:06.374 [main-SendThread(192.168.8.128:2181)] WARN  org.apache.zookeeper.ClientCnxn - Session 0x0 for server null, unexpected error, closing socket connection and attempting reconnect
+java.net.ConnectException: Connection timed out: no further information
+	at sun.nio.ch.SocketChannelImpl.checkConnect(Native Method)
+	at sun.nio.ch.SocketChannelImpl.finishConnect(SocketChannelImpl.java:717)
+	at org.apache.zookeeper.ClientCnxnSocketNIO.doTransport(ClientCnxnSocketNIO.java:361)
+	at org.apache.zookeeper.ClientCnxn$SendThread.run(ClientCnxn.java:1141)
+2019-08-22 15:51:07.477 [main-SendThread(192.168.8.128:2181)] INFO  org.apache.zookeeper.ClientCnxn - Opening socket connection to server 192.168.8.128/192.168.8.128:2181. Will not attempt to authenticate using SASL (unknown error)
+2019-08-22 15:51:28.479 [main-SendThread(192.168.8.128:2181)] WARN  org.apache.zookeeper.ClientCnxn - Session 0x0 for server null, unexpected error, closing socket connection and attempting reconnect
+java.net.ConnectException: Connection timed out: no further information
+	at sun.nio.ch.SocketChannelImpl.checkConnect(Native Method)
+	at sun.nio.ch.SocketChannelImpl.finishConnect(SocketChannelImpl.java:717)
+	at org.apache.zookeeper.ClientCnxnSocketNIO.doTransport(ClientCnxnSocketNIO.java:361)
+	at org.apache.zookeeper.ClientCnxn$SendThread.run(ClientCnxn.java:1141)
+2019-08-22 15:51:29.582 [main-SendThread(192.168.8.128:2181)] INFO  org.apache.zookeeper.ClientCnxn - Opening socket connection to server 192.168.8.128/192.168.8.128:2181. Will not attempt to authenticate using SASL (unknown error)
+2019-08-22 15:51:50.588 [main-SendThread(192.168.8.128:2181)] WARN  org.apache.zookeeper.ClientCnxn - Session 0x0 for server null, unexpected error, closing socket connection and attempting reconnect
+java.net.ConnectException: Connection timed out: no further information
+	at sun.nio.ch.SocketChannelImpl.checkConnect(Native Method)
+	at sun.nio.ch.SocketChannelImpl.finishConnect(SocketChannelImpl.java:717)
+	at org.apache.zookeeper.ClientCnxnSocketNIO.doTransport(ClientCnxnSocketNIO.java:361)
+	at org.apache.zookeeper.ClientCnxn$SendThread.run(ClientCnxn.java:1141)
+2019-08-22 15:51:51.689 [main-SendThread(192.168.8.128:2181)] INFO  org.apache.zookeeper.ClientCnxn - Opening socket connection to server 192.168.8.128/192.168.8.128:2181. Will not attempt to authenticate using SASL (unknown error)
+2019-08-22 15:52:12.692 [main-SendThread(192.168.8.128:2181)] WARN  org.apache.zookeeper.ClientCnxn - Session 0x0 for server null, unexpected error, closing socket connection and attempting reconnect
+java.net.ConnectException: Connection timed out: no further information
+	at sun.nio.ch.SocketChannelImpl.checkConnect(Native Method)
+	at sun.nio.ch.SocketChannelImpl.finishConnect(SocketChannelImpl.java:717)
+	at org.apache.zookeeper.ClientCnxnSocketNIO.doTransport(ClientCnxnSocketNIO.java:361)
+	at org.apache.zookeeper.ClientCnxn$SendThread.run(ClientCnxn.java:1141)
+2019-08-22 15:52:13.793 [main-SendThread(192.168.8.128:2181)] INFO  org.apache.zookeeper.ClientCnxn - Opening socket connection to server 192.168.8.128/192.168.8.128:2181. Will not attempt to authenticate using SASL (unknown error)
+2019-08-22 15:52:34.795 [main-SendThread(192.168.8.128:2181)] WARN  org.apache.zookeeper.ClientCnxn - Session 0x0 for server null, unexpected error, closing socket connection and attempting reconnect
+java.net.ConnectException: Connection timed out: no further information
+	at sun.nio.ch.SocketChannelImpl.checkConnect(Native Method)
+	at sun.nio.ch.SocketChannelImpl.finishConnect(SocketChannelImpl.java:717)
+	at org.apache.zookeeper.ClientCnxnSocketNIO.doTransport(ClientCnxnSocketNIO.java:361)
+	at org.apache.zookeeper.ClientCnxn$SendThread.run(ClientCnxn.java:1141)
+2019-08-22 15:52:35.897 [main-SendThread(192.168.8.128:2181)] INFO  org.apache.zookeeper.ClientCnxn - Opening socket connection to server 192.168.8.128/192.168.8.128:2181. Will not attempt to authenticate using SASL (unknown error)
+2019-08-22 15:52:56.899 [main-SendThread(192.168.8.128:2181)] WARN  org.apache.zookeeper.ClientCnxn - Session 0x0 for server null, unexpected error, closing socket connection and attempting reconnect
+java.net.ConnectException: Connection timed out: no further information
+	at sun.nio.ch.SocketChannelImpl.checkConnect(Native Method)
+	at sun.nio.ch.SocketChannelImpl.finishConnect(SocketChannelImpl.java:717)
+	at org.apache.zookeeper.ClientCnxnSocketNIO.doTransport(ClientCnxnSocketNIO.java:361)
+	at org.apache.zookeeper.ClientCnxn$SendThread.run(ClientCnxn.java:1141)
+2019-08-22 15:52:58.000 [main-SendThread(192.168.8.128:2181)] INFO  org.apache.zookeeper.ClientCnxn - Opening socket connection to server 192.168.8.128/192.168.8.128:2181. Will not attempt to authenticate using SASL (unknown error)
+2019-08-22 15:53:19.007 [main-SendThread(192.168.8.128:2181)] WARN  org.apache.zookeeper.ClientCnxn - Session 0x0 for server null, unexpected error, closing socket connection and attempting reconnect
+java.net.ConnectException: Connection timed out: no further information
+	at sun.nio.ch.SocketChannelImpl.checkConnect(Native Method)
+	at sun.nio.ch.SocketChannelImpl.finishConnect(SocketChannelImpl.java:717)
+	at org.apache.zookeeper.ClientCnxnSocketNIO.doTransport(ClientCnxnSocketNIO.java:361)
+	at org.apache.zookeeper.ClientCnxn$SendThread.run(ClientCnxn.java:1141)
+2019-08-22 15:53:20.109 [main-SendThread(192.168.8.128:2181)] INFO  org.apache.zookeeper.ClientCnxn - Opening socket connection to server 192.168.8.128/192.168.8.128:2181. Will not attempt to authenticate using SASL (unknown error)

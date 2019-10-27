@@ -1,0 +1,39 @@
+
+# jsp页面解析（自定义视图解析器---集群）
+spring:
+  mvc:
+    view:
+      prefix: /WEB-INF/jsp/
+      suffix: .jsp
+  redis:
+    cluster:
+      nodes: 192.168.8.130:7001,192.168.8.130:7002,192.168.8.130:7003,192.168.8.130:7004,192.168.8.130:7005,192.168.8.130:7006
+# 端口
+server:
+  port: 8086
+
+# 注册中心
+dubbo:
+  application:
+    name: ego_order
+  registry:
+    address: zookeeper://192.168.8.128:2181
+
+# 自定义软编码
+# 登陆用户cookie的key值
+mylogin:
+  cookie:
+    name: TT_TOKEN
+
+
+# 购物车名称
+cart:
+  usercart: cart
+
+# 进行页面跳转的地址
+passport:
+  url:
+    showLogin: http://localhost:8084/user/showLogin
+
+
+
