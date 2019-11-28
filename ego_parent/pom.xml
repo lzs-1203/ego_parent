@@ -63,10 +63,12 @@
             <artifactId>dubbo</artifactId>
             <version>${dubbo-version}</version>
         </dependency>
+        <!--zookeeper客户端工具-->
         <dependency>
             <groupId>org.apache.curator</groupId>
             <artifactId>curator-framework</artifactId>
             <version>${curator-version}</version>
+            <!--避免继承zookeeper版本为3.5.4，因为在服务器端版本为：3.4.8-->
             <exclusions>
                 <exclusion>
                     <groupId>org.apache.zookeeper</groupId>
@@ -74,6 +76,7 @@
                 </exclusion>
             </exclusions>
         </dependency>
+        <!--在客户端使用的zookeeper版本是3.4.8-->
         <dependency>
             <groupId>org.apache.zookeeper</groupId>
             <artifactId>zookeeper</artifactId>

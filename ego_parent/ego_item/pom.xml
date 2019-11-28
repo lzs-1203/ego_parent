@@ -13,6 +13,11 @@
     <packaging>war</packaging>
 
     <dependencies>
+
+        <dependency>
+            <groupId>org.springframework.boot</groupId>
+            <artifactId>spring-boot-starter-test</artifactId>
+        </dependency>
         <dependency>
             <artifactId>ego_service</artifactId>
             <groupId>com.ego</groupId>

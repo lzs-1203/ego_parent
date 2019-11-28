@@ -11,7 +11,6 @@ import org.springframework.data.redis.core.RedisTemplate;
 import org.springframework.data.redis.serializer.Jackson2JsonRedisSerializer;
 import org.springframework.stereotype.Service;
 import org.springframework.util.DigestUtils;
-
 import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
 import java.util.UUID;
@@ -58,6 +57,7 @@ public class TbUserServiceImpl implements TbUserService {
         return EgoResult.error("获取用户信息失败");
     }
 
+    //退出
     @Override
     public EgoResult userLogout(String token, HttpServletRequest request, HttpServletResponse response) {
         //cookie在这里的删除是不生效的，在这里是跨域请求，不在同一个项目中
